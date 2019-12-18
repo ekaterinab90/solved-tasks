@@ -1,18 +1,11 @@
-# solved tasks
-* task 1
-```javascript
-const a = 123;
-```
-```javascript
-``
-function even_or_odd(number) {
-if(number % 2 === 0){
-return 'Even';
-} else {
-return 'Odd';
+# Solved-Tasks
+#### Sum The Strings
+````javascript
+function sumStr(a,b) {
+  return +a + + b + '';
 }
-}
-console.log(even_or_odd(2));
-console.log(even_or_odd(0));
-console.log(even_or_odd(7));
-console.log(even_or_odd(1));
+  
+console.log(sumStr('4','5'));
+console.log(sumStr(34, 5));
+````
+
