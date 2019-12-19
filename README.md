@@ -1,14 +1,17 @@
 # Solved-Tasks
-#### I love you, a little , a lot, passionately ... not at all
+#### Breaking chocolate problem
 ````javascript
- function howMuchILoveYou(nbPetals) {
- let arr = ['I love you', 'a little', 'a lot', 'passionately', 'madly', 'not at all'];
- for (let i = 0; i <= nbPetals; i++){
- arr.push(arr[i]);
+function breakChocolate(n,m){
+ let a = n * m - 1;
+ if(a <=0){
+ return 0;
+ }else{
+  return a;
  }
-   return arr[nbPetals-1];
  }
+console.log(breakChocolate());
 ````
+
 
 
 
