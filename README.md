@@ -1,11 +1,15 @@
 # Solved-Tasks
-#### Sum The Strings
+#### I love you, a little , a lot, passionately ... not at all
 ````javascript
-function sumStr(a,b) {
-  return +a + + b + '';
-}
-  
-console.log(sumStr('4','5'));
-console.log(sumStr(34, 5));
+ function howMuchILoveYou(nbPetals) {
+ let arr = ['I love you', 'a little', 'a lot', 'passionately', 'madly', 'not at all'];
+ for (let i = 0; i <= nbPetals; i++){
+ arr.push(arr[i]);
+ }
+   return arr[nbPetals-1];
+ }
 ````
+
+
+
 
