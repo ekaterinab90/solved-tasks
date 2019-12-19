@@ -1,15 +1,9 @@
 # Solved-Tasks
-#### Breaking chocolate problem
+#### For Twins: 2. Math operations
 ````javascript
-function breakChocolate(n,m){
- let a = n * m - 1;
- if(a <=0){
- return 0;
- }else{
-  return a;
- }
- }
-console.log(breakChocolate());
+function iceBrickVolume(radius, bottleLength, rimLength){
+   return  (radius**2)*2*(bottleLength - rimLength);
+}
 ````
 
 
