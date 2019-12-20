@@ -1,9 +1,11 @@
 # Solved-Tasks
-#### Century From Year
+#### Formatting decimal places #0
 ```javascript
-function century(year) {
-return Math.ceil(year/100);
+function twoDecimalPlaces(n) {
+ return +n.toFixed(2);
 }
+
+
 ```
 
 
