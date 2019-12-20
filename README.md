@@ -1,10 +1,10 @@
 # Solved-Tasks
-#### How many times should I go?
+#### Formatting decimal places #0
 ```javascript
-function howManyTimes(annualPrice, individualPrice){
-  let a = annualPrice / individualPrice;
-  return Math.ceil(a);
+function twoDecimalPlaces(n) {
+ return +n.toFixed(2);
 }
+
 
 ```
 
