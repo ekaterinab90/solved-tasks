@@ -1,9 +1,10 @@
 # Solved-Tasks
-#### Grasshopper - Order of operations
+#### Discover The Original Price
 ````javascript
-function orderOperations (){
-  return (2 + 2) * (2 + 2) * 2
- }
+function discoverOriginalPrice(discountedPrice, salePercentage){
+ let x = discountedPrice /  (100 - salePercentage) *(100);
+ return +x.toFixed(2);
+}
 ````
 
 
