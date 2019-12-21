@@ -1,12 +1,14 @@
 # Solved-Tasks
-#### Formatting decimal places #0
-```javascript
-function twoDecimalPlaces(n) {
- return +n.toFixed(2);
-}
+#### Grasshopper - Order of operations
+````javascript
+function orderOperations (){
+  return (2 + 2) * (2 + 2) * 2
+ }
+````
 
 
-```
+
+
 
 
 
