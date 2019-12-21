@@ -1,12 +1,11 @@
 # Solved-Tasks
-#### Discover The Original Price
+#### Return the closest number multiple of 10
 ````javascript
-function discoverOriginalPrice(discountedPrice, salePercentage){
- let x = discountedPrice /  (100 - salePercentage) *(100);
- return +x.toFixed(2);
-}
+ const closestMultiple10 = num => {
+   num = Math.round(num / 10);
+   return num *10; 
+ };
 ````
-
 
 
 
