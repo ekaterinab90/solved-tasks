@@ -1,7 +1,9 @@
 # Solved-Tasks
-#### Is he gonna survive?
+#### Chuck Norris VII - True or False? (Beginner)
 ````javascript
- const hero =(bullets, dragons) => (dragons * 2) <= bullets;
+ function ifChuckSaysSo(){
+ return 'Yes' === 'No';
+ }
 ````
 
 
