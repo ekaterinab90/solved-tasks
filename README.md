@@ -1,13 +1,7 @@
 # Solved-Tasks
-#### Simple Comparison?
+#### Is he gonna survive?
 ````javascript
- function add(a, b){
- if(a == b){
-   return true;
- }else{
-   return false;
- }
- };
+ const hero =(bullets, dragons) => (dragons * 2) <= bullets;
 ````
 
 
