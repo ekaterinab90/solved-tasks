@@ -1,9 +1,12 @@
 # Solved-Tasks
-#### Return the closest number multiple of 10
+#### Simple Comparison?
 ````javascript
- const closestMultiple10 = num => {
-   num = Math.round(num / 10);
-   return num *10; 
+ function add(a, b){
+ if(a == b){
+   return true;
+ }else{
+   return false;
+ }
  };
 ````
 
