@@ -1,14 +1,17 @@
 # Solved-Tasks
-#### Determine offspring sex based on genes XX and XY chromosomes
+#### Rock Paper Scissors!
 ````javascript
-function chromosomeCheck(sperm){
-if(sperm == 'XY'){
-   return "Congratulations! You're going to have a son."
-}else {
-   return "Congratulations! You're going to have a daughter.";
-}
+ const rps = (p1, p2) => {
+   
+   if (p1 === p2) return 'Draw!';
+   if (p1 === 'rock' && p2 === 'scissors') return 'Player 1 won!';
+   if (p1 === 'scissors' && p2 === 'paper') return 'Player 1 won!';
+   if (p1 === 'paper' && p2 === 'rock') return 'Player 1 won!';
+   return 'Player 2 won!';
  };
+
 ````
+
                              
 
 
