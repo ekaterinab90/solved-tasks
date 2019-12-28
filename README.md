@@ -1,9 +1,16 @@
 # Solved-Tasks
-#### Convert boolean values to strings 'Yes' or 'No'.
+#### Calculate Two People's Individual Ages
 ````javascript
-function boolToWord( bool ){
- return (bool === true) ? 'Yes' : 'No';
+function getAges(sum,difference){
+
+if(sum < 0 || difference < 0 || sum < difference){
+return null;
 }
+let arr = [];
+arr.push((sum+difference)/2,(sum-difference)/2)
+return arr;
+}
+
 ````
 
                              
