@@ -1,11 +1,9 @@
 # Solved-Tasks
-#### Do I get a bonus?
+#### Convert boolean values to strings 'Yes' or 'No'.
 ````javascript
- function bonusTime(salary, bonus) {
- return (bonus == true) ? "\u00A3" + salary * 10 : "\u00A3" + salary;
- }
-
-
+function boolToWord( bool ){
+ return (bool === true) ? 'Yes' : 'No';
+}
 ````
 
                              
