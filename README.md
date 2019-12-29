@@ -1,25 +1,15 @@
 # Solved-Tasks
-####  How old will I be in 2099?
+####  Student's Final Grade
 ````javascript
-function  calculateAge( yearBorn,yearsNow ){
-  let  a = yearBorn - yearsNow;
-  let b = yearsNow - yearBorn;
-  if (yearBorn <  yearsNow && b === 1){
-  return "You are 1 year old.";
-
-  }if(yearBorn === yearsNow){
-return "You were born this very year!";
-} if ( yearBorn < yearsNow){
- return `You are ${yearsNow - yearBorn} years old.` ;
-   
-} if( yearBorn > yearsNow && a > 1){
- return `You will be born in ${yearBorn - yearsNow} years.`;
-}if (yearBorn <  yearsNow && b === 1){
-  return `You will be born in ${a} year.`;
-
-} if(yearBorn > yearsNow && a === 1){
-  return  'You will be born in 1 year.';
-}
-}
-
+function finalGrade (exam, projects) {
+  if( exam > 90 || projects > 10){
+  return 100;
+  }else if( exam > 75 && projects >= 5){
+  return 90;
+  }else if( exam > 50 && projects >= 2){
+  return 75;
+  }  else {
+  return 0;
+  }
+} 
 ````
