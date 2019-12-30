@@ -1,11 +1,19 @@
 # Solved-Tasks
-####  Power of two
+####  simple calculator
 `````javascript
-function isPowerOfTwo(n){
-if(n != 0 && !(n & (n - 1))){
-return true;
-}else{
-return false;
+function calculator(a,b,sign){
+if ((typeof a === "number") && (typeof b === "number")) {
+switch(sign){
+case "+": 
+  return a + b;
+case "-":
+  return a - b;
+case "/":
+  return a / b;
+case "*":
+  return a * b;
 }
+}
+return "unknown value";
 }
 `````
