@@ -1,19 +1,9 @@
 # Solved-Tasks
-####  simple calculator
+####  No zeros for heros
 `````javascript
-function calculator(a,b,sign){
-if ((typeof a === "number") && (typeof b === "number")) {
-switch(sign){
-case "+": 
-  return a + b;
-case "-":
-  return a - b;
-case "/":
-  return a / b;
-case "*":
-  return a * b;
+function noBoringZeros(n) {
+let a = n + "";
+return Number(a.replace(/0+$/g, '')); 
 }
-}
-return "unknown value";
-}
+
 `````
