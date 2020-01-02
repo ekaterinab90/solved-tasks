@@ -1,31 +1,16 @@
 # Solved-Tasks
-####  Training JS #2: Basic data types--Number
+####  Difference Of Squares
 ````javascript
-var v1=50;v2=100,v3=150,v4=200,v5=2,v6=250
-function equal1(){
-  var a=v1   
-  var b=v1   
-  return a+b;
+function differenceOfSquares(n){
+  let totalSquareOfTheSum  = 0;
+  for ( let i =1; i <= n; i++){
+  totalSquareOfTheSum +=i;
 }
-//Please refer to the example above to complete the following functions
-function equal2(){
-  var a=  v4; //set number value to a
-  var b=  v2; //set number value to b
-  return a-b;
+ let sumOfTheSquares = 0;
+ for ( let k = 1; k <= n; k++){
+ sumOfTheSquares += (k * k);
 }
-function equal3(){
-  var a=  v1; //set number value to a
-  var b=  v5; //set number value to b
-  return a*b;
+ return (totalSquareOfTheSum**2)- sumOfTheSquares;
 }
-function equal4(){
-  var a= v4;//set number value to a
-  var b= v5; //set number value to b
-  return a/b;
-}
-function equal5(){
-  var a= v6  //set number value to a
-  var b= v3  //set number value to b
-  return a%b;
 }
 ````
