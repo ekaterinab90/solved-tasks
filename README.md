@@ -1,13 +1,11 @@
 # Solved-Tasks
-####  Sum of the first nth term of Series
+####  Grasshopper - Summation
 ````javascript
-function SeriesSum(n){
-if(!n) return '0.00';
- let sum = 1; j = 4;
- for(let i = 1; i < n; i++){
-  sum += 1 / j;
-  j += 3;
- }
- return sum.toFixed(2);
+var summation = function (num) {
+  let count = 0;
+  for(i = 0; i <= num; i++){
+  count = count + i;
+  }
+  return count++;
 }
 ````
