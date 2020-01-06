@@ -1,11 +1,16 @@
 # Solved-Tasks
-####  Keep up the hoop
-````javascript
-function hoopCount (n) {
-if( n >= 10){
-return "Great, now move on to tricks";
-} else if( n < 10){
-return "Keep at it until you get it";
- }
-}
-````
+####  Sum of Multiples
+```javascript
+function sumMul(n,m){
+  let sum = 0;
+   if (n < 1 || m < 1) return "INVALID";
+  for(let i = n; i <= m; i += n){
+   sum += i;
+  }
+  return sum;
+  }
+
+
+```
+
+
