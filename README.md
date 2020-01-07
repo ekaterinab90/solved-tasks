@@ -1,15 +1,11 @@
 # Solved-Tasks
-####  Sum of Multiples
+####  Keep Hydrated!
 ```javascript
-function sumMul(n,m){
-  let sum = 0;
-   if (n < 1 || m < 1) return "INVALID";
-  for(let i = n; i <= m; i += n){
-   sum += i;
-  }
-  return sum;
-  }
 
+function litres(time) {
+let a = time * 0.5;
+return Math.floor(a);
+  }
 
 ```
 
