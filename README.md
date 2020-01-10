@@ -1,12 +1,13 @@
 # Solved-Tasks
-####  Keep Hydrated!
+####  Draw stairs
 ```javascript
-
-function litres(time) {
-let a = time * 0.5;
-return Math.floor(a);
-  }
-
+function drawStairs(n) {
+let step = "I";
+for(let i = 1; i < n; i++) {
+ step += "\n" + " ".repeat(i) + 'I' ;
+}
+return step
+}
 ```
 
 
