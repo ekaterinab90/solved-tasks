@@ -1,15 +1,11 @@
 # Solved-Tasks
-####  Grasshopper - Summation
+####  Filter the number
 ````javascript
-let summation = function (num) {
-let count = 0;
-for(let i = 1; i <= num; i++){
- count = count + i;
- 
- }
-return count;
+let FilterString = function(value){
+let a = /\d+/g;
+let b = value.match(a).join([]);
+return +b;
 }
-
 ````
 
 
