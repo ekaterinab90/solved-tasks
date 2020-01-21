@@ -1,11 +1,16 @@
 # Solved-Tasks
-####  Filter the number
+####  isReallyNaN
+
 ````javascript
-let FilterString = function(value){
-let a = /\d+/g;
-let b = value.match(a).join([]);
-return +b;
+
+const isReallyNaN = (val) => {
+if(Number.isNaN(val)){
+return true;
+}else{
+return false;
+  }
 }
+
 ````
 
 
