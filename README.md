@@ -1,10 +1,11 @@
 # Solved-Tasks
-####  Opposite number
+####  Return Negative
 
 ````javascript
-function opposite(number) {
-return (number < 0) ? number * -1 : number * -1
- }
+function makeNegative(num) {
+return (num >= 0) ? num * -1 : num;
+}
+
 
 ````
 
