@@ -1,15 +1,10 @@
 # Solved-Tasks
-####  isReallyNaN
+####  Opposite number
 
 ````javascript
-
-const isReallyNaN = (val) => {
-if(Number.isNaN(val)){
-return true;
-}else{
-return false;
-  }
-}
+function opposite(number) {
+return (number < 0) ? number * -1 : number * -1
+ }
 
 ````
 
