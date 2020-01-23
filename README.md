@@ -1,11 +1,11 @@
 # Solved-Tasks
-####  Return Negative
+####  Closest elevator
 
 ````javascript
-function makeNegative(num) {
-return (num >= 0) ? num * -1 : num;
-}
 
+function elevator(left, right, call){
+  return Math.abs(call - right) > Math.abs(call - left) ? "left" : "right";
+}
 
 ````
 
