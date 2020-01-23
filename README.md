@@ -1,12 +1,17 @@
 # Solved-Tasks
-####  Closest elevator
+####  BASIC: Making Six Toast.
 
 ````javascript
 
-function elevator(left, right, call){
-  return Math.abs(call - right) > Math.abs(call - left) ? "left" : "right";
+function sixToast(num) {
+if( num < 6){
+   return 6 - num;
+}if(num > 6){
+   return num - 6;
+ }else{
+   return 0;
+ }
 }
-
 ````
 
 
