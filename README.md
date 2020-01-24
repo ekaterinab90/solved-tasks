@@ -1,17 +1,16 @@
 # Solved-Tasks
-####  BASIC: Making Six Toast.
+#### Square Every Digit
 
 ````javascript
-
-function sixToast(num) {
-if( num < 6){
-   return 6 - num;
-}if(num > 6){
-   return num - 6;
- }else{
-   return 0;
+function squareDigits(num){
+let a = num + '';
+let str = '';
+ for(let i =0; i < a.length; i++){
+str = str +Math.pow(a[i],2);
  }
-}
+  return Number(str);
+ }
+
 ````
 
 
