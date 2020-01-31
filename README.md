@@ -1,10 +1,15 @@
 # Solved-Tasks
-#### You're a square!
+#### To square(root) or not to square(root)
 
 ````javascript
-var isSquare = function(n)
-{
-  return  (Math.sqrt(n) % 1 === 0) ? true : false;
+function squareOrSquareRoot(array) { 
+ return array.map(i => {
+  if(Number.isInteger(Math.sqrt(i))){
+     return Math.sqrt(i)
+   }else{
+     return Math.pow(i,2);
+   }
+ })
 }
 ````
 
