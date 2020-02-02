@@ -1,17 +1,13 @@
 # Solved-Tasks
-#### Find the next perfect square!
+#### Watermelon
 
 ````javascript
-function findNextSquare(sq) {
- if(Math.sqrt(sq) % 1 === 0){
-   do {
-     sq++;
-   }while (Math.sqrt(sq) % 1 !==0)
-     return sq;
-   }else{
-     return -1;
+function divide(weight){
+  if(weight % 2 === 0 &&  weight > 2){
+    return true; 
+  }else (weight % 2 === 1)
+    return false;
   }
- }
 ````
 
 
