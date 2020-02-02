@@ -1,13 +1,16 @@
 # Solved-Tasks
-#### Watermelon
+#### Unfinished Loop - Bug Fixing #1
 
 ````javascript
-function divide(weight){
-  if(weight % 2 === 0 &&  weight > 2){
-    return true; 
-  }else (weight % 2 === 1)
-    return false;
+function createArray(number){
+  var newArray = [];
+  
+  for(var counter = 1; counter <= number; counter ++){
+    newArray.push(counter);
   }
+  
+  return newArray;
+}
 ````
 
 
