@@ -1,16 +1,17 @@
 # Solved-Tasks
-#### To square(root) or not to square(root)
+#### Find the next perfect square!
 
 ````javascript
-function squareOrSquareRoot(array) { 
- return array.map(i => {
-  if(Number.isInteger(Math.sqrt(i))){
-     return Math.sqrt(i)
+function findNextSquare(sq) {
+ if(Math.sqrt(sq) % 1 === 0){
+   do {
+     sq++;
+   }while (Math.sqrt(sq) % 1 !==0)
+     return sq;
    }else{
-     return Math.pow(i,2);
-   }
- })
-}
+     return -1;
+  }
+ }
 ````
 
 
