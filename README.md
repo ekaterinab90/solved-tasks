@@ -1,15 +1,14 @@
 # Solved-Tasks
-#### Unfinished Loop - Bug Fixing #1
+#### Array plus array
 
 ````javascript
-function createArray(number){
-  var newArray = [];
-  
-  for(var counter = 1; counter <= number; counter ++){
-    newArray.push(counter);
-  }
-  
-  return newArray;
+function arrayPlusArray(arr1, arr2) {
+let arr3 = arr1.concat(arr2);
+let counter = 0;
+for ( let i = 0; i < arr3.length; i++){
+counter = counter + arr3[i];
+}
+ return counter;
 }
 ````
 
