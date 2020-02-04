@@ -1,9 +1,8 @@
 # Solved-Tasks
-#### Grasshopper - Function syntax debugging
-
+#### function cockroachSpeed(s) 
 ````javascript
-function main (verb, noun){
-  return verb + noun;
+function cockroachSpeed(s) {
+return Math.floor(s*27.778);
 }
 ````
 
