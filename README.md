@@ -1,10 +1,9 @@
 # Solved-Tasks
-#### All Star Code Challenge #22
+#### Holiday VIII - Duty Free
 ````javascript
-function toTime(seconds) {
- const hour = Math.floor(seconds/ 3600);
- const minutes = Math.floor(seconds % 3600) / 60;
-return (`${Math.floor(hour)} hour(s) and ${Math.floor(minutes)} minute(s)`);
+function dutyFree(normPrice, discount, hol){
+ let savings = (normPrice * discount / 100); // percentage formula is used
+ return Math.floor(hol / savings);
 }
 ````
 
