@@ -1,10 +1,10 @@
 # Solved-Tasks
-#### Holiday VIII - Duty Free
+#### Return the closest number multiple of 10
 ````javascript
-function dutyFree(normPrice, discount, hol){
- let savings = (normPrice * discount / 100); // percentage formula is used
- return Math.floor(hol / savings);
+const closestMultiple10 = num => {
+  return Math.round(num / 10) * 10;
 }
+
 ````
 
 
