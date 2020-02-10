@@ -1,8 +1,9 @@
 # Solved-Tasks
-#### Return the closest number multiple of 10
+#### Price of Mangoes
 ````javascript
-const closestMultiple10 = num => {
-  return Math.round(num / 10) * 10;
+function mango(quantity, price) {
+  const offer =  Math.floor(quantity / 3);
+  return (quantity - offer) * price;
 }
 
 ````
