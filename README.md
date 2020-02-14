@@ -1,9 +1,8 @@
 # Solved-Tasks
-#### Price of Mangoes
+#### Formatting decimal places #1
 ````javascript
-function mango(quantity, price) {
-  const offer =  Math.floor(quantity / 3);
-  return (quantity - offer) * price;
+function twoDecimalPlaces(number) {
+  return  Math.trunc(number * 100) / 100;
 }
 
 ````
