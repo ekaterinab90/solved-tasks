@@ -1,9 +1,10 @@
 # Solved-Tasks
-#### Beginner Series #1 School Paperwork
+#### Expressions Matter
 ````javascript
-function paperwork(n, m) {
-return ( n < 0 || m < 0) ? !n * m : n * m;
+function expressionMatter(a, b, c) {
+ return  Math.max(a *(b + c), a * b *c, a + b * c, (a + b) *c, a + b + c);
 }
+
 
 ````
 
