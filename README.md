@@ -1,9 +1,14 @@
 # Solved-Tasks
-#### Convert to Binary
+#### Powers of 3
 ````javascript
-function toBinary(n){
-  return +n.toString([2]);
+function largestPower(n){
+ let k = 0;
+  while (3 ** k < n){
+  k++;
 }
+  return k - 1;
+}
+
 
 ````
 
