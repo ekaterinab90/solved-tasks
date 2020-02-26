@@ -1,10 +1,10 @@
 # Solved-Tasks
-#### Find the position!
+#### Convert to Binary
 ````javascript
- function position(letter){
- let str = ' abcdefghijklmnopqrstuvwxyz';
- return 'Position of alphabet: ' + str.indexOf(letter);
- }
+function toBinary(n){
+  return +n.toString([2]);
+}
+
 ````
 
 
