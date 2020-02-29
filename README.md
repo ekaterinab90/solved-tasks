@@ -1,14 +1,13 @@
 # Solved-Tasks
-#### Sum Arrays
+#### Filling an array (part 1)
 ````javascript
-function sum (numbers) {
-let arrSum = 0;
-for(let i = 0; i < numbers.length; i++){
-arrSum += numbers[i];
+const arr = N => {
+ let arr = [];
+ for(let i = 0; i < N; i++){
+ arr.push(i);
 }
-    return arrSum;
-};
-
+ return arr;
+}
 
 
 ````
