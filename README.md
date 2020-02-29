@@ -1,17 +1,14 @@
 # Solved-Tasks
-#### Difference Of Squares
-
+#### Sum Arrays
 ````javascript
-function differenceOfSquares(n){
- let sum = 0;
- let sumSq = 0;
-    for(let i = 0; i <= n; i++){
-    sum += i;
-    sumSq += i*i;
- }
-    sum = sum * sum;
-    return sum - sumSq;
+function sum (numbers) {
+let arrSum = 0;
+for(let i = 0; i < numbers.length; i++){
+arrSum += numbers[i];
 }
+    return arrSum;
+};
+
 
 
 ````
