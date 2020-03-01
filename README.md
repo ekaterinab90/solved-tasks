@@ -1,15 +1,18 @@
 # Solved-Tasks
-#### Filling an array (part 1)
+#### Unique In Order
 ````javascript
-const arr = N => {
- let arr = [];
- for(let i = 0; i < N; i++){
- arr.push(i);
-}
+var uniqueInOrder=function(iterable){
+if(iterable === '') return [];
+let arr = [];
+arr.push(iterable[0]);
+for(let i = 1; i < iterable.length; i++){
+if(iterable[i] !== iterable[i - 1])
+ arr.push(iterable[i]);
+ }
  return arr;
-}
-
+} 
 
 ````
+
 
 
