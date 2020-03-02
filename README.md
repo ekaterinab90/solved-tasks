@@ -1,16 +1,15 @@
 # Solved-Tasks
-#### Find the first non-consecutive number
+#### Difference of Volumes of Cuboids
 ```javascript
-function firstNonConsecutive(arr) {
-
-  for (let i = 0; i < arr.length - 1; ++i) {
-    if (arr[i] + 1 != arr[i + 1]) {
-      return arr[i + 1];
-    }
+function findDifference(a, b) {
+  let y = 1;
+  let x = 1;
+  for(let i = 0; i < a.length,  i < b.length; i++){
+  y *= a[i];
+  x *= b[i];
   }
-    return null;
+  return Math.abs(y - x);
 }
-
 ```
 
 
