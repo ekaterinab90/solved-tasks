@@ -1,9 +1,16 @@
 # Solved-Tasks
-#### What is type of variable?
+#### Enumerable Magic #3 - Does My List Include This?
 ```javascript
-function type(value) { 
-  return ({}).toString.call(value).match(/\s([a-zA-Z]+)/)[1].toLowerCase();
+function include(arr, item){
+for(let i = 0; i < arr.length; i++){
+ if(arr[i] === item){
+ return true;
+ }
 }
+ return false;
+ }
+
+
 ```
 
 
