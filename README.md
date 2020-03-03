@@ -1,14 +1,12 @@
 # Solved-Tasks
-#### Difference of Volumes of Cuboids
+#### Small enough? - Beginner
 ```javascript
-function findDifference(a, b) {
-  let y = 1;
-  let x = 1;
-  for(let i = 0; i < a.length,  i < b.length; i++){
-  y *= a[i];
-  x *= b[i];
+function smallEnough(a, limit){
+for(let i = 0; i < a.length; i++ ){
+if (a[i] > limit)
+return false;
   }
-  return Math.abs(y - x);
+  return true;
 }
 ```
 
