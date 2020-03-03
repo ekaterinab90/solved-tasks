@@ -1,13 +1,10 @@
 # Solved-Tasks
-#### Small enough? - Beginner
+#### No Loops 2 - You only need one
 ```javascript
-function smallEnough(a, limit){
-for(let i = 0; i < a.length; i++ ){
-if (a[i] > limit)
-return false;
-  }
-  return true;
-}
+function check(a,x){
+if(a.includes(x)) return true;
+else return false;
+};
 ```
 
 
