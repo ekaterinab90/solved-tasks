@@ -1,14 +1,17 @@
 # Solved-Tasks
-#### Sum of positive
+#### Total amount of points
 ```javascript
-function positiveSum(arr) {
-  let sum =0;
-  for(let i = 0; i < arr.length; i++){
-  if(arr[i] >= 0)  
-  sum = sum + arr[i];
+function points(games) {
+  let count = 0;
+  for(let i = 0; i < games.length; i++){
+  if(games[i][0] > games[i][2]) count += 3;
+  if (games[i][0] == games[i][2]) 
+  count += 1;
   }
-  return sum;
+  return count;
 }
+
+
 ```
 
 
