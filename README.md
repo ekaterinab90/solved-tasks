@@ -1,13 +1,13 @@
 # Solved-Tasks
-#### How good are you really?
+#### Odd or Even?
 ````javascript
-function betterThanAverage(classPoints, yourPoints){
- classPoints.push(yourPoints)
-  let count = 0;
-    for(let i = 0; i < classPoints.length; i++){
-      count += classPoints[i]; 
+function oddOrEven(array) {
+let sum =0;
+  for(let i = 0; i < array.length; i++ ){
+  sum = sum + array[i];
  }
-   return  count / classPoints.length > yourPoints ? false : true;
+  if(sum % 2 === 0 ) return 'even';
+  else return 'odd' 
 }
 ````
 
