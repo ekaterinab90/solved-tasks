@@ -1,23 +1,15 @@
 # Solved-Tasks
-#### Count of positives / sum of negatives
-```javascript
-function countPositivesSumNegatives(input){
-if (input == null || input.length < 1){
-  return [];
+#### How good are you really?
+````javascript
+function betterThanAverage(classPoints, yourPoints){
+ classPoints.push(yourPoints)
+  let count = 0;
+    for(let i = 0; i < classPoints.length; i++){
+      count += classPoints[i]; 
+ }
+   return  count / classPoints.length > yourPoints ? false : true;
 }
- let count = 0;
-   let sum = 0;
-     for(let i = 0; i < input.length; i++){
-       if(input[i] > 0){
-          count++;
-  }   if(input[i] < 0) {
-        sum = sum + input[i]
-  }
-  }
-  return [count, sum];
-  }
-
-```
+````
 
 
 
