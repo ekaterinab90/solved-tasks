@@ -1,19 +1,18 @@
 # Solved-Tasks
-#### Divide and Conquer
+#### Find the divisors!
 ````javascript
-function divCon(x){
- let str = 0;
- let num = 0;
- for(let i = 0; i < x.length; i++){
-   if( typeof x[i] === 'number'){
-     num += x[i];         
-   }
-   if(typeof x[i] === 'string'){
-     str += (+x[i]);
+function divisors(x) {
+arr = [];
+ for (var i=2;i<x;i++){
+  if (x % i === 0){
+   arr.push(i);
+        }
+ } if (arr.length === 0) {
+        return `${x} is prime`;
+    } else {
+        return arr;
     }
-   }
-     return num - str; 
- }
+}
 
 ````
 
