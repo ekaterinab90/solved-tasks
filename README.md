@@ -1,19 +1,14 @@
 # Solved-Tasks
-#### Find the divisors!
+#### Generate range of integers
 ````javascript
-function divisors(x) {
-arr = [];
- for (var i=2;i<x;i++){
-  if (x % i === 0){
-   arr.push(i);
-        }
- } if (arr.length === 0) {
-        return `${x} is prime`;
-    } else {
-        return arr;
-    }
+function generateRange(min, max, step){
+  let minim =0;
+let arr = [];
+for (let i = min; i <= max; i += step){
+arr.push(i) 
+ }
+return arr;
 }
-
 ````
 
 
