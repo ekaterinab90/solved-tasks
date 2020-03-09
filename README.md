@@ -1,14 +1,8 @@
 # Solved-Tasks
-#### Generate range of integers
+#### Be Concise IV - Index of an element in an array
+
 ````javascript
-function generateRange(min, max, step){
-  let minim =0;
-let arr = [];
-for (let i = min; i <= max; i += step){
-arr.push(i) 
- }
-return arr;
-}
+let find = (arr, el) => (arr.indexOf(el) !== -1) ? arr.indexOf(el) : "Not found"; 
 ````
 
 
