@@ -1,25 +1,13 @@
 # Solved-Tasks
-#### Training JS #4: Basic data types--Array
+#### A wolf in sheep's clothing
 
 ````javascript
-function getLength(arr){
-  return arr.length;
+function warnTheSheep(queue) {
+  let sheepIndex = queue.length - queue.indexOf('wolf') - 1;
+  if (sheepIndex === 0)
+    return 'Pls go away and stop eating my sheep';
+  return `Oi! Sheep number ${sheepIndex}! You are about to be eaten by a wolf!`;
 }
-function getFirst(arr){
-  return arr.shift();
-}
-function getLast(arr){
-  return arr.pop()
-}
-function pushElement(arr){
-  var el=1;
-  arr.push(el);
-  return arr
-}
-function popElement(arr){
-  let num = 3;
-  arr.pop()
-  return arr;
 ````
 
 
