@@ -1,11 +1,15 @@
 # Solved-Tasks
-#### JavaScript Array Filter
-
+#### Removing Elements
 ````javascript
-function getEvenNumbers(numbersArray){
- const oddIndex = numbersArray.filter((el) => el % 2 == 0);
- return oddIndex;
-}
+function removeEveryOther(arr){
+let arr2 = [];
+for(let i = 0; i < arr.length; i++){
+if(i % 2 === 0) // check index is even
+arr2.push(arr[i])
+
+  }  
+    return arr2;
+};
 
 ````
 
