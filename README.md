@@ -1,13 +1,12 @@
 # Solved-Tasks
-#### A wolf in sheep's clothing
+#### JavaScript Array Filter
 
 ````javascript
-function warnTheSheep(queue) {
-  let sheepIndex = queue.length - queue.indexOf('wolf') - 1;
-  if (sheepIndex === 0)
-    return 'Pls go away and stop eating my sheep';
-  return `Oi! Sheep number ${sheepIndex}! You are about to be eaten by a wolf!`;
+function getEvenNumbers(numbersArray){
+ const oddIndex = numbersArray.filter((el) => el % 2 == 0);
+ return oddIndex;
 }
+
 ````
 
 
