@@ -1,15 +1,14 @@
 # Solved-Tasks
-#### Removing Elements
+#### Pre-FizzBuzz Workout #1
 ````javascript
-function removeEveryOther(arr){
-let arr2 = [];
-for(let i = 0; i < arr.length; i++){
-if(i % 2 === 0) // check index is even
-arr2.push(arr[i])
+function preFizz(n) {
+let arr = [];
+for(let i = 1; i <= n; i++){
+arr.push(i)
+ }
+ return arr;
+}
 
-  }  
-    return arr2;
-};
 
 ````
 
