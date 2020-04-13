@@ -1,12 +1,14 @@
 # Solved-Tasks
-#### Pre-FizzBuzz Workout #1
+#### Sum of positive
 ````javascript
-function preFizz(n) {
-let arr = [];
-for(let i = 1; i <= n; i++){
-arr.push(i)
- }
- return arr;
+function positiveSum(arr) {
+  var total = 0;    
+  for (let i = 0; i < arr.length; i++) {    
+    if (arr[i] > 0) {                  
+      total += arr[i];                 
+    }
+  }
+  return total;                         
 }
 
 
