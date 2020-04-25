@@ -1,17 +1,13 @@
 # Solved-Tasks
-#### Sum of positive
+#### Find the Slope
 ````javascript
-function positiveSum(arr) {
-  var total = 0;    
-  for (let i = 0; i < arr.length; i++) {    
-    if (arr[i] > 0) {                  
-      total += arr[i];                 
-    }
-  }
-  return total;                         
+function slope(points)
+{ 
+  let x = points[2] - points[0];
+  let y = points[3] - points[1];
+  let div = y / x;
+  return isFinite(div) ? div.toString() : "undefined"
 }
-
-
 ````
 
 
