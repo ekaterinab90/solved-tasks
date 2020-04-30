@@ -1,13 +1,14 @@
 # Solved-Tasks
-#### Find the Slope
+#### Find the number of array elements whose last digit is 0.
 ````javascript
-function slope(points)
-{ 
-  let x = points[2] - points[0];
-  let y = points[3] - points[1];
-  let div = y / x;
-  return isFinite(div) ? div.toString() : "undefined"
+const ar = [1, -9, 0, -8, 50, -20, -5, 7, 9, 11];
+let res = 0;
+for (let i = 0; i < ar.length; i++){
+  if (ar[i] % 3 === 0) {
+    res++;
+  }
 }
+
 ````
 
 
