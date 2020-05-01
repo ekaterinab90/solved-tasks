@@ -1,17 +1,11 @@
 # Solved-Tasks
-#### Hypotenuse of a right triangle.
+#### Distance Between Two Points
 ````javascript
-function hypotenuse(a, b){
-let hypo = (Math.pow(a,2) + Math.pow(b,2));
-return Math.ceil(Math.sqrt(hypo));
+function distance(x1, y1, x2, y2){
+return Math.sqrt(((x2 - x1)**2 + (y2 - y1)**2));
 }
 
-
 ````
-
-
-
-
 
 
 
