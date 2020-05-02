@@ -1,10 +1,9 @@
 # Solved-Tasks
-#### Check that "All digits of a three-digit number are different"
+#### Check the truth of the statement "All three-digit numbers are sorted in increasing order.
 ````javascript
-function areAllDigitsDifferent(num){
+function areDigitsInAscendingOrder(num){
 let str = String(num);
-  if(str[0] !== str[1] && str[0]!== str[2] && str[1] !== str[2] && str[2] !== str[1])
-  return true;
+if(str[0] < str[1] && str[0] < str[2] && str[1] < str[2]) return true;
   else return false;
 }
 
