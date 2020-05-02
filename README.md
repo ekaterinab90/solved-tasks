@@ -1,14 +1,12 @@
 # Solved-Tasks
-#### Find the product of numbers 0.3 * 0.6 * 0.9 * ... * 3
+#### Check that "All digits of a three-digit number are different"
 ````javascript
-let pr = 1; 
-let x = 0.2; 
-while (x <= 5) {
-  pr = pr * x;
-  x = x + 0.2;
+function areAllDigitsDifferent(num){
+let str = String(num);
+  if(str[0] !== str[1] && str[0]!== str[2] && str[1] !== str[2] && str[2] !== str[1])
+  return true;
+  else return false;
 }
-
-
 
 ````
 
