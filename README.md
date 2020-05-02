@@ -1,11 +1,11 @@
 # Solved-Tasks
-#### Find the sum 1 + 1/2 + 1/3 + 1/4 + ... + 1/10
+#### Find the product of numbers 0.3 * 0.6 * 0.9 * ... * 3
 ````javascript
-let s = 0;
-let x = 1;
-while (x <= 10) {
-  s = s + 1/x;
-  x = x + 1;
+let pr = 1; 
+let x = 0.2; 
+while (x <= 5) {
+  pr = pr * x;
+  x = x + 0.2;
 }
 
 
