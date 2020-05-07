@@ -1,10 +1,10 @@
 # Solved-Tasks
-#### Area or Perimeter
+#### Check whether triangle is valid or not
 ````javascript
-const areaOrPerimeter = function(l , w) {
- return (l === w) ? l * w : 2 * (l + w);
- };
-
+function triangle(a, b, c){
+if(a + b > c && b + c > a && c + a > b) return "The triangle exists";
+else return "The triangle does not exist";
+}
 ````
 
 
