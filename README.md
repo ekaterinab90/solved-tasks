@@ -1,11 +1,11 @@
 # Solved-Tasks
-#### Cost of fruit
+#### Factorial
 
 ````javascript
-function saleFruits(n){
- return (n < 3)? (n * 1).toFixed(2) : (n >= 3 && n < 10) ? (n * 0.80).toFixed(2) :(n *0.60).toFixed(2);
-}
-
+let b = 1;
+ for(let i = 5; i > 0; i--){
+   b = b * i;
+ }
 ````
 
 
