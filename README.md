@@ -1,8 +1,13 @@
 # Solved-Tasks
-#### Discount 
+#### Take the Derivative
 
 ````javascript
-discounted_price = original_price - (original_price * discount / 100)
+function derive(coefficient,exponent) {
+  let fun = coefficient * exponent;
+  let ex = exponent - 1;
+  return `${fun}x^${ex}`;
+  
+}
 ````
 
 
