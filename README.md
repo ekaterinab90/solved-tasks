@@ -1,15 +1,13 @@
 # Solved-Tasks
-#### Find the Difference in Age between Oldest and Youngest Family Members
+#### Check how many of the numbers in the array are whole numbers
 
 ````javascript
-function differenceInAges(ages){
- let youngest = ages[0];
- let older = ages[0];
-  for(let i =0; i < ages.length; i++){
-   if(older < ages[i]) older = ages[i];
-    else if (youngest > ages[i]) youngest = ages[i];
-  }
-  return [youngest,older, older - youngest]
+const arr = [3, -6 ,7.01, 5, 21, 7.1, 2, 4, 4];
+let count = 0;
+for (let i = 0; i < arr.length; i++){
+if( Number.isInteger(arr[i])){
+  count++;
+ }
 }
 ````
 
