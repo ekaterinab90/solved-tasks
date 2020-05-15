@@ -1,20 +1,28 @@
 # Solved-Tasks
-#### Count the number of valid names( names >= 5 letters). If the name contains less than 5 letters - add the underscore (_) sign so that the names will become valid (names === 5 letters)
+####  Obtain an array of degrees from the given array
 ````javascript
-let arr = ['Jannine', 'Erika','Ann', 'Cassandra', 'Jonathan','R', 'Alfred', 'Sara', 'Eva'];
-let count = 0;
-for (let i = 0; i < arr.length; i++){
-   if(arr[i].length >= 5){
-     count++; // count will count the names with >= 5 letters
-   }else{   // else will work for the names with less than 5 letters
-     for (let j = arr[i].length; j < 5; j++){ //this loop will work for missing letters in names,and will add to the missing name.length the required number of "_"
-     arr[i] = arr[i] + '_'
-    }
-  }
-}
 
+const arr = [4, -2, 8,0, -4,1, 5, -1];
+let arr2 = [];
+
+for (let i = 0; i < arr.length; i++){
+   if(arr[i] === 0) arr2.push('zero degrees');
+  else
+   if(arr[i] === 1)
+    arr2.push( '1 degree above zero');
+  else 
+   if(arr[i] === -1)
+    arr2.push('1 degree below zero');
+  else
+   if(arr[i] > 1)
+    arr2.push(`${arr[i]} degrees above zero`);
+  else
+   if(arr[i] <= -2)
+    arr2.push(`${Math.abs(arr[i])} degrees below zero`);
+  
+}
 ````
 
 
-
+5
 
