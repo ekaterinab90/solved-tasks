@@ -1,17 +1,21 @@
 # Solved-Tasks
-####  Check for negative elements in the array
-````javascript
-function isNegativeInArray(arr){
-let negative;
-for(let i = 0; i < arr.length; i++){
-if(arr[i] < 0){ negative = true;
-break;
- }
-else negative = false;
- }
- return negative;
-}
+####  Does the string contain the given character
 
+````javascript
+function iSymbInString(str, symb){
+  let el;
+
+  for(let i = 0; i < str.length; i++){
+    if(str[i] === symb){
+    el = true;
+    break;
+
+    } else {
+      el = false;
+    }
+  }
+     return el;
+  }
 ````
 
 
