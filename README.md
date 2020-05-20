@@ -1,21 +1,17 @@
 # Solved-Tasks
-####  Does the string contain the given character
+####  Get an array of integers from 1 to n, except for the given number x.
+
 
 ````javascript
-function iSymbInString(str, symb){
-  let el;
-
-  for(let i = 0; i < str.length; i++){
-    if(str[i] === symb){
-    el = true;
-    break;
-
-    } else {
-      el = false;
-    }
+function fillArray(n, x){
+  let arr = [];
+  
+  for(let i = 1; i <= n; i++){
+    if(i === x) continue;
+    arr.push(i);
   }
-     return el;
-  }
+    return arr;
+  } 
 ````
 
 
