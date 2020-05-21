@@ -1,19 +1,21 @@
 # Solved-Tasks
-####  Get an array of integers from 1 to n, except for the given number x.
+#### isPrime?
 
 
 ````javascript
-function fillArray(n, x){
-  let arr = [];
-  
-  for(let i = 1; i <= n; i++){
-    if(i === x) continue;
-    arr.push(i);
-  }
-    return arr;
-  } 
+function isPrime(n) 
+{
+    // Check if n is less than 2 => not prime
+    if (n<2) return false;
+
+    // Loop from 2 to n -1, 
+    for (let i = 2; i <= n - 1 ; i++) 
+        // If i is a divisor of n, n is not prime
+        if (n % i == 0) return false;
+
+    return true;
+}
 ````
 
 
-5
 
