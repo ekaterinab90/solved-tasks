@@ -1,31 +1,16 @@
 # Solved-Tasks
-#### sum_array
+#### Return Sum of a Number and its factorial in a string
 
 
 ````javascript
-function sum_array(arr) {
-  
-  // store our final answer
-  var sum = 0;
-  
-  // loop through entire array
-  for (var i = 0; i < arr.length; i++) {
-    
-    // loop through each inner array
-    for (var j = 0; j < arr[i].length; j++) {
-      
-      // add this number to the current final sum
-      sum += arr[i][j];
-      
-    }
-    
-  }
-  
-  return sum;
-  
+let n = 9;
+let sum = 0;
+let str = '';
+  for(let i = 1; i <= n; i++){
+     sum += i;
+    str = str + `${i} + `
 }
-
-
+  console.log(sum, str);
 ````
 
 
