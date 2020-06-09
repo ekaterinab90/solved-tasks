@@ -9,6 +9,7 @@ let nrOfRows = 5;
      str = str +  ' '.repeat((nrOfRows - rowNumber )/2) + '*'.repeat(rowNumber);
      str = (rowNumber === nrOfRows) ?  str : str + '\n';
  }
+console.log(str);
 
 ````
 
