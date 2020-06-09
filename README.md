@@ -1,16 +1,23 @@
 # Solved-Tasks
-#### Return Sum of a Number and its factorial in a string
+#### Draw Stairs
 
 
 ````javascript
-let n = 9;
-let sum = 0;
-let str = '';
-  for(let i = 1; i <= n; i++){
-     sum += i;
-    str = str + `${i} + `
-}
-  console.log(sum, str);
+let nrOfRows = 7;
+ let str = '';
+   for(let rowNumber = 1; rowNumber <= nrOfRows; rowNumber++){// outer loop handles nr of rows; rowNumber = each line increases by 2 stars
+       str = str +  '-'.repeat(rowNumber - 1) + '#'.repeat(1); 
+     str = (rowNumber === nrOfRows) ?  str : str + '\n';
+ }
+console.log(str);
+#
+-#;
+--#;
+---#;
+----#;
+-----#;
+------#
+
 ````
 
 
