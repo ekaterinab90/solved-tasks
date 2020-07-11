@@ -1,16 +1,19 @@
 # Solved-Tasks
-#### % % %
+#### while loop
 
 ````javascript
-function percent(price){
-  if (price>= 300){
-    return price - price * 0.3 // aici 3 inseamna 30 %
-  }else if(price>= 200){
-    return price - price * 0.2; //aici 2 inseamna 20 % 
- }else if(price>= 100){
-    return price - price * 0.1; //aici 1 inseamna 10 % 
- }
+
+function sum(n){
+  let total = 0;
+  let i = 0;
+  while(i <= n){
+    total = total + i;
+    i++;
+  }
+  return total;
 }
+console.log(sum(5));
+
 
 
 ````
