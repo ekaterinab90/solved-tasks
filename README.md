@@ -1,19 +1,12 @@
 # Solved-Tasks
-#### while loop
+#### triangle
 
 ````javascript
 
-function sum(n){
-  let total = 0;
-  let i = 0;
-  while(i <= n){
-    total = total + i;
-    i++;
-  }
-  return total;
+function triangle(a, b, c){
+if(a === b && b === c && c === a) return "The triangle is right";
+else return "The triangle is not right";
 }
-console.log(sum(5));
-
 
 
 ````
